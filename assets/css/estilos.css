@@ -1,0 +1,205 @@
+/* Reset básico */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #ffffff8c;
+        color: #333;
+}
+
+/* Header */
+.barra-superior {
+        background-color: #2c3e50;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        flex-wrap: wrap;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+}
+
+.logo {
+        width: 100px;
+        height: auto;
+}
+
+.nombre {
+        font-size: 18px;
+        font-weight: bold;
+}
+
+/* Navegación */
+.navegacion-principal .lista-nav {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+}
+
+.item-nav {
+        /* espacio entre ítems*/
+}
+
+.enlace-nav {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s;
+}
+
+.enlace-nav:hover {
+        /* color al pasar el mouse*/
+        color: #1abc9c;
+}
+
+/* Main */
+.contenido-principal {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 20px;
+}
+
+/* Sección presentación */
+.seccion-presentacion {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        margin-bottom: 60px;
+}
+
+.texto-presentacion {
+        flex: 1 1 300px;
+}
+
+.saludo-principal {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: inherit;
+        color: #1abc9c;
+
+}
+
+.titulo-principal {
+        font-size: 32px;
+        color: #2c3e50;
+}
+
+.subtitulo {
+        font-size: 24px;
+        margin: 10px 0;
+        color: #34495e;
+}
+
+.descripcion {
+        font-size: 16px;
+        color: #555;
+}
+
+img{
+        width: 100%;
+}
+.imagen-presentacion {
+        flex: 1 1 300px;
+        text-align: center;
+}
+
+.foto-perfil {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+}
+
+.boton-portfolio{
+        color: white;
+        background-color: #2c3e50;
+        width: 30%;
+        padding: 1rem 1rem;
+        border-radius: 5px;
+        cursor: pointer; 
+}
+
+.boton-contactame{
+        color: #2c3e50;
+        background: white;
+        width: 30%;
+        padding: 1rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.boton-portfolio:hover{
+        color: #1abc9c;
+        transform: scale(1.05);
+}
+
+.boton-contactame:hover{
+        color: #1abc9c;
+        transform: scale(1.05);
+}
+
+
+/* Segunda sección */
+.seccion-secundaria {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+}
+
+.imagen-secundaria {
+        flex: 1 1 300px;
+        text-align: center;
+}
+
+.imagen-extra {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+}
+
+.texto-secundario {
+        flex: 1 1 300px;
+}
+
+.parrafo-secundario {
+        font-size: 16px;
+        color: #555;
+}
+
+/* Footer */
+.pie-de-pagina {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        margin-top: 40px;
+        font-size: 14px;
+}
+
+.redes-sociales {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+}
+
+.icono-red-linkedin {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+}
+
+.icono-red-linkedin:hover {
+        transform: scale(1.2);
+}
